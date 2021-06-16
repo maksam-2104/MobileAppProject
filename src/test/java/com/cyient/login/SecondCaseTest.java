@@ -25,10 +25,10 @@ public class SecondCaseTest {
 		 driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		 driver.findElementByAndroidUIAutomator("UiSelector().text(\"LOGIN\")").click();
 		 Thread.sleep(2000);
-		 driver.findElement(By.id("com.meritnation.ncert:id/etLoginId")).sendKeys("9876789098");
-		 driver.findElement(By.id("com.meritnation.ncert:id/frmlPassword")).sendKeys("123456789");
+		driver.findElementByXPath("//*[@resource-id='com.meritnation.ncert:id/etLoginId']").sendKeys("Miller@gmail.com");
+		driver.findElementByXPath("//*[@resource-id='com.meritnation.ncert:id/etPassword']").sendKeys("9876789076");
 		// driver.findElementByAndroidUIAutomator("UiSelector().text(\"Email ID / Mobile\")").sendKeys("965087890");
-		 //driver.findElementByAndroidUIAutomator("UiSelector().text(\"Email ID / Mobile\")").sendKeys("123456789");
+		 
 		 driver.findElementByAndroidUIAutomator("UiSelector().text(\"LOGIN\").index(3)").click();
 	}
 

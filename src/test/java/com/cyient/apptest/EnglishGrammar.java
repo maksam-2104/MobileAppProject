@@ -30,9 +30,9 @@ public class EnglishGrammar {
 	       // driver.findElementByAndroidUIAutomator("UiSelector().text(\"Active and Passive Voice\").index(0)").click();  
 	        driver.findElementByAndroidUIAutomator("UiSelector().text(\"Rules Of Active and Passive Voice\").index(0)").click();  
 	        
-	        String visiblText = "android.widget.TextView";
-	        driver.findElementByAndroidUIAutomator
-	        ("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"" + visiblText + "\").instance(0))").click();
+	       // String visiblText = "android.widget.TextView";
+	        //driver.findElementByAndroidUIAutomator
+	        //("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"" + visiblText + "\").instance(0))").click();
 		
 	}
 
